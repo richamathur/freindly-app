@@ -1,0 +1,168 @@
+/**:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+.wrapper {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	height: 500px;
+	background-color: #e7e7e7;
+	border: 1px solid rgba(0,0,0,0.87);
+}
+
+/* Add Custom CSS Below this line */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+	}
+	footer {
+		margin-top: 16px;
+	  background-color: rgba(0,0,0,0.87);
+	  height: 30px;
+	}
+
+
+	#wrapper {
+
+	  margin-bottom: 16px;
+	}
+
+	#main,
+	#menu,
+	#sidebar {
+	  height: 700px;
+
+	}
+
+	#main,
+#menu,
+#sidebar {
+  background-color: #e9ebee;
+}
+
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+#header .navbar-brand{
+
+	color: white;
+}
+ .white-text{
+
+	color: white !important;
+}
+
+#header ul .glyphicon {
+    font-size: 20px;
+}
+.pull-right {
+    float: right!important;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+#menu img{
+
+      margin: auto;
+      height: 20px;
+      width: 20px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #444444;
+
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+#bdge{
+  float: right;
+}
+p {
+	margin: 0 0 10px;
+}
+.comment {
+    margin: 0;
+}
+
+
+/*todaywork*/
+/*.navbar {
+  background-color: #3b5998;
+  font-size: 22px;
+  padding: 5px 10px;
+}*/
+
+/* Define how each icon button should look like */
+.button {
+  color: white;
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+  padding: 2px 5px; /* Add some padding so it looks nice */
+}
+
+/* Make the badge float in the top right corner of the button */
+.button__badge {
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+
+  padding: 1px 3px;
+  font-size: 10px;
+
+  position: absolute; /* Position the badge within the relatively positioned button */
+  top: 0;
+  right: 0;
+}
+ul.a,li{
+	display:inline;
+	padding:3px;
+}
